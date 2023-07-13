@@ -7,7 +7,7 @@ body {
   
   /* Header styles */
   header {
-    background: linear-gradient(to right, #ff9800, #f44336);
+    background: linear-gradient(180deg, #afe4ee, #0b08b3);
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -39,6 +39,7 @@ body {
   
   /* Main content styles */
   main {
+    background-color: #abf9ff;
     padding: 20px;
   }
   

@@ -7,8 +7,8 @@ body {
   
   /* Header styles */
   header {
-    background: linear-gradient(to bottom, #afe4ee, #0b08b3);
-    padding: 40px;
+    background: linear-gradient(to top, #afe4ee, #0b08b3);
+    padding: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;

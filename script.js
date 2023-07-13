@@ -1,4 +1,8 @@
-fetch('fetch_photo_page.php')
+const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
+const photoPageUrl = 'https://www.google.com/maps/contrib/104069121239645335715/photos/@42.7575299,-76.3176244,6z/data=!3m1!4b1!4m3!8m2!3m1!1e1?hl=en-US&entry=ttu';
+
+
+fetch(corsProxyUrl + photoPageUrl)
   .then(response => response.text())
   .then(html => {
     const viewCount = extractViewCount(html);

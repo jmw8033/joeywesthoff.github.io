@@ -41,6 +41,7 @@ body {
   main {
     background-color: #abf9ff;
     padding: 20px;
+    height: 100vh;
   }
   
   section {
